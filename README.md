@@ -41,3 +41,12 @@ make
 make install
 
 ```
+
+* 如果遇到:error while loading shared libraries: libev.so.4: cannot open shared object file: No such file or directory.
+```
+
+sudo ln -s /usr/local/lib/libev.so.4 /usr/lib/libev.so.4
+
+sudo ldconfig
+
+```
