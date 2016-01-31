@@ -9,7 +9,7 @@ namespace Socketman;
 // top statement before class, add to after headers
 // test include .h
 #include "kernel/require.h"
-#include "libev/ev.h"
+#include <ev.h>
 #include "lib/include/test.h"
 #include <pthread.h>
 }%
