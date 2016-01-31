@@ -31,10 +31,6 @@ sudo make install
 zephir generate
 
 ```
-* 修改config.m4文件
-```
-socketman_sources += "libev/ev.c or 自己的C源文件"
-```
 
 * 编译
 ```
