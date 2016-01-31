@@ -91,10 +91,10 @@ class Greeting
         echo "hello,hellohello,hellohellohellohello,hello world!\n";
     }
 
-    public static function start()
+    public static function start(string ip , int port)
     {
         %{
-            start_ev();
+            start_chat(ip , port);
         }%
         return 10;
     }

@@ -63,5 +63,5 @@
     },
     "extra-libs": "-lpthread",
     "extra-cflags": "",
-    "extra-sources":["lib/src/test.c"]
+    "extra-sources":["lib/src/test.c","lib/src/buffer.c","lib/src/chat_server.c","lib/src/connection.c","lib/src/list.c" , "lib/src/netutils.c"]
 }
