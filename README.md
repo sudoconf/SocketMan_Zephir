@@ -36,6 +36,8 @@ zephir generate
 ```
 phpize
 
+./configure
+
 make 
 
 make install
