@@ -24,9 +24,6 @@ ext/ext.h
 ext/ext_config.h
 ext/install
 ext/install-sh
-ext/lib/src/chat_server
-ext/lib/src/tcpserver.c
-ext/lib/src/test
 ext/libtool
 ext/ltmain.sh
 ext/missing
