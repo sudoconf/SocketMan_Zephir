@@ -37,3 +37,13 @@ ext/run-tests.php
 ext/socketman.c
 ext/socketman.h
 ext/socketman/
+ext/modules/
+ext/kernel/*.lo
+ext/kernel/extended/*.lo
+ext/kernel/extended/.libs
+ext/kernel/.libs
+ext/lib/src/*.lo
+ext/lib/src/.libs
+ext/.libs/
+ext/*.lo
+ext/*.la
